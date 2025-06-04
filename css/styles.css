@@ -451,22 +451,6 @@ img {
     padding: 100px 0;
 }
 
-
-.page-footer .footer-dscr {
-    font-size: 16px;
-
-    /* line-height: 24px; */
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    max-width: 264px
-}
-
-.footer-logo {
-    display: inline-block;
-    margin-bottom: 16px;
-}
-
 .container-footer {
     display: flex;
     align-items: baseline;
@@ -475,6 +459,19 @@ img {
 
 .footer-content {
     margin-right: 120px;
+}
+
+.footer-dscr {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .social-container {
@@ -521,5 +518,4 @@ img {
 }
 
 .social-icon-footer {
-    fill: var(--cloud, #f4f4fd);
-}
+    fill: var(--cloud, #f4f4fd); }
